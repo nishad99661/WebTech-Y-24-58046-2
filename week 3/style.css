@@ -1,0 +1,77 @@
+ h1{ color: green;text-align: center;font-size: 30px;}
+
+    #para1{ background-color: purple;color: orange;text-align: center; font-size: 35px;}
+    #para2{ color: blue;text-align: center; font-size: 20px;}
+    #para3{ color: yellow;text-align: center; font-size: 20px;}
+
+    .class1{ color: aqua;text-align: center; font-size: 25px;}
+
+    *{font-family: times new roman;background-color: hotpink;}
+
+    h2,p{ color: brown;text-align: center; font-size: 20px;}
+
+    #para4{
+        width: 350px;
+        padding: 15px;
+        border: 5px solid black;
+        margin: 0px;
+        background-color: lightblue;
+        box-sizing: border-box;
+    }
+
+#combinator > p{
+
+    color:blue;}
+
+#xyz:hover{
+    color:red; font-size: 30px;
+}
+
+#static{
+    position:static;
+    border:3px solid red;
+    width : 300px;
+    padding: 10px;
+}
+
+#relative{
+    position:relative;
+    left:30px;
+    border:3px solid green;
+    width : 300px;
+}
+
+#fixed{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    width: 120px;
+    border: 3px dashed black;
+    z-index:2;
+    background-color: antiquewhite;
+}
+#relative1{
+    position:relative;
+    left:30px;
+    width:300px;
+    height:200px;
+    border: 3px solid red;
+    
+}
+
+#absolute{
+    position: absolute;
+    top: 80px;
+    right:0px;
+    width:150px;
+    height:100px;
+    border: 3px dotted green;
+
+}
+
+#sticky{
+    position:sticky;
+    top:0px;
+    background-color: aquamarine;
+    border:3px solid yellowgreen;
+}
